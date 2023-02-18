@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>DOG PHOTO BLOG</title>
+    <style>
+        .section1{
+            background-image: url(img/pexels-daniel-frank-343241.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+  </head>
+
+  <body>
+    <section class="section1">
+      <h2>Dog Photos</h2>
+      <p>click here to view more dog <a href="#">photos</a></p>
+      <a href="#">
+        <figure>
+          <img
+            src="./img/pexels-koolshooters-7678412.jpg"
+            alt="dog-with-sunglass"
+            width="400px"
+            height="400px"
+          />
+        </figure>
+      </a>
+    </section>
+
+    <section>
+      <h2>Dog List</h2>
+      <h3>Things Dogs Love:</h3>
+      <ul>
+        <li>Seeing theri human</li>
+        <li>Dog Treats</li>
+        <li>Dog Toys</li>
+      </ul>
+
+      <figure>
+        <img
+          src="./img/pexels-koolshooters-7678412.jpg"
+          alt="dog-with-sunglass"
+          width="400px"
+          height="400px"
+        />
+        <figcaption>My Dogs <em>love</em> Patting his head</figcaption>
+      </figure>
+
+      <h3>Things Dogs Hate:</h3>
+      <ol>
+        <li>Cats</li>
+        <li>Taking a bath</li>
+        <li>Being</li>
+      </ol>
+      <figure>
+        <img
+          src="./img/pexels-koolshooters-7678412.jpg"
+          alt="dog-with-sunglass"
+          width="400px"
+          height="400px"
+        />
+        <figcaption>My Dogs <em>love</em> Patting his head</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <h2>Dog Form</h2>
+      <form action="#">
+        <fieldset>
+          <legend>Is your dog indoor or an outdoor dog?</legend>
+          <label
+            ><input
+              id="indoor"
+              type="radio"
+              name="indoor-outdoor"
+            />Indoor</label
+          >
+          <label
+            ><input
+              id="outdoor"
+              type="radio"
+              name="indoor-outdoor"
+            />Outdoor</label
+          >
+        </fieldset>
+
+        <fieldset>
+          <legend>What is your dogs personality?</legend>
+          <input type="checkbox" name="loving" id="loving" /><label for="loving"
+            >Loving</label
+          >
+          <input type="checkbox" name="lazy" id="lazy" /><label for="lazy"
+            >Lazy</label
+          >
+          <input type="checkbox" name="energetic" id="energetic" /><label
+            for="energetic"
+            >Energetic</label
+          >
+        </fieldset>
+
+        <input type="text" name="cuteDogs1" placeholder="Cute dogs url" />
+        <button>Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
